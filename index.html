@@ -64,10 +64,10 @@ $(document).ready(function() {
 			<div id="m_nav_container" class="m_nav">
 			  <ul id="m_nav_list" class="m_nav">
 				<li class="m_nav_item" id="m_nav_item_1"> <a href="#home">主页</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">关于</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_3"> <a href="#statistics">获奖情况</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_4"> <a href="#experience">个人简历</a> </li>
-				<li class="m_nav_item" id="moble_nav_item_5"> <a href="#projects">在研课题</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_2"> <a href="#about">研究项目</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_3"> <a href="#statistics">教育经历</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_4"> <a href="#experience">获奖情况</a> </li>
+				<li class="m_nav_item" id="moble_nav_item_5"> <a href="#projects">近期成果</a> </li>
 				<li class="m_nav_item" id="moble_nav_item_6"> <a href="#contact">联系我</a> </li>
 			  </ul>
 			</div>
@@ -81,16 +81,27 @@ $(document).ready(function() {
 					<div class="banner-right-img">
 						<img src="images/1.jpg" alt="" />
 					</div>
-					<div class="banner-right-info">
-						<h2>在研主持项目：</h2>
-						<p>国家自然科学基金青年基金，11602266、无改性纳米颗粒喷射弥散机理及相关实验技术研究，2017/01-2019/12</p>
-						<p>多台天然气流量计同时检定方法优化研究	横向	2017.6-2018.9</p>
-						<p>电磁传感器流体力学建模及仿真分析	横向　　2017.9-2018.6</p>
-						<p>基于流动分析的凝结水泵水力优化研究	横向	2017.3-2018.3</p>
-						<p>在研参与项目：</p>
-						<p>国家自然科学基金重点项目，11632016、非牛顿流体颗粒悬浮流及雾化射流的研究、2017/01-2021/12 </p>
-						<p>国家自然科学基金面上项目，11572305、横向振荡柱体尾流的控制，2016/01-2019/12</p>
-						<p>国家自然科学基金面上项目，11472260，微流体中纳米颗粒的非线性电动操控机理和实验研究，2015/01-2018/12</p>
+					<div class="col-md-8 w3ls-banner-right">
+						<div class="w3ls-banner-right-info">
+							<h4>职称</h4>
+							<p>讲师</p>
+						</div>
+						<div class="w3ls-banner-right-info">
+							<h4>学位</h4>
+							<p>浙江大学博士</p>
+						</div>
+						<div class="w3ls-banner-right-info">
+							<h4>研究方向</h4>
+							<p>流体机械CFD技术及水力优化 气液分离 纳米颗粒气固两相流及其实验技术研究</p>
+						</div>
+						<div class="w3ls-banner-right-info">
+							<h4>联系电话</h4>
+							<p>13606517497</p>
+						</div>
+						<div class="w3ls-banner-right-info">
+							<h4>电子邮箱</h4>
+							<p><a href="mailto:example@email.com">tuchengxu@cjlu.edu.cn</a></p>
+						</div>
 					</div>
 					<div class="clearfix"> </div>
 					<div class="w3-button">
@@ -108,6 +119,7 @@ $(document).ready(function() {
 								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li><a href="#"><i class="fa fa-rss"></i></a></li>
 								<li><a href="#"><i class="fa fa-vk"></i></a></li>
+								<li><a href="#"><i class="fa fa-weixin"></i></a></li>
 							</ul>
 						</div>
 						<div class="clearfix"> </div>
@@ -119,22 +131,20 @@ $(document).ready(function() {
 						<p>涂程旭</p>
 					</div>
 					<div class="w3ls-banner-left-info">
-						<h4>职称</h4>
-						<p>讲师</p>
+						<h4>所在学校</h4>
+						<p>中国计量大学</p>
 					</div>
 					<div class="w3ls-banner-left-info">
-						<h4>研究方向</h4>
-						<p>流体机械CFD技术及水力优化</p>
-						<p>气液分离</p>
-						<p>纳米颗粒气固两相流及其实验技术研究</p>
+						<h4>所属学院</h4>
+						<p>计量测试工程学院</p>
 					</div>
 					<div class="w3ls-banner-left-info">
-						<h4>联系电话</h4>
-						<p>13606517497</p>
+						<h4>学科一</h4>
+						<p>仪器科学与技术-测试计量技术及仪器</p>
 					</div>
 					<div class="w3ls-banner-left-info">
-						<h4>Email Address</h4>
-						<p><a href="mailto:example@email.com">tuchengxu@cjlu.edu.cn</a></p>
+						<h4>学科二</h4>
+						<p>力学-流体力学</p>
 					</div>
 				</div>
 				<div class="clearfix"> </div>
@@ -146,11 +156,31 @@ $(document).ready(function() {
 	<div class="about" id="about">
 		<div class="container">
 			<div class="wthree-about-grids">
-				<div class="col-md-6 wthree-about-left">
-					<h3>About Me</h3>
-					<h4>Mauris molestie ultrices molestie. Sed rhoncus interdum ipsum, id fermentum sem pellentesque ut.</h4>
-					<p>Praesent egestas egestas felis, sit amet posuere massa malesuada eget. Phasellus sem urna, euismod sit amet orci laoreet, laoreet molestie purus. Nulla leo purus, blandit nec efficitur tempor, interdum vel enim. <span>Proin mauris mi, lobortis quis quam at, tristique dictum arcu. In lobortis, massa in porta posuere, orci orci tincidunt risus, vitae ultrices enim eros vel lacus.</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt tellus at est fermentum ultricies. Cras cursus semper libero. Vivamus non elit a diam elementum vulputate ac quis nisi. Suspendisse tellus massa, tempus in tristique a, eleifend non est. Duis consequat facilisis laoreet. </p>
+				<div class="col-md-12 wthree-about-left">
+					<h3 align="center">研究项目</h3>
+					<h4>在研主持项目：</h4>
+					<table>
+					<tr><td>国家自然科学基金青年基金，11602266、无改性纳米颗粒喷射弥散机理及相关实验技术研究&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>2017/01-2019/12</td></tr>
+					<tr><td>多台天然气流量计同时检定方法优化研究&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>2017/06-2018/09</td></tr>
+					<tr><td>电磁传感器流体力学建模及仿真分析&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>2017/09-2018/06</td></tr>
+					<tr><td>基于流动分析的凝结水泵水力优化研究&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>2017/03-2018/03</td></tr>
+					</table>
+					<p></p>
+					<h4>在研参与项目：</h4>
+					<table>
+					<tr><td>国家自然科学基金重点项目，11632016、非牛顿流体颗粒悬浮流及雾化射流的研究&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>2017/01-2021/12</td></tr>
+					<tr><td>国家自然科学基金面上项目，11572305、横向振荡柱体尾流的控制&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>2015/08/01-2016/07/31</td></tr>
+					<tr><td>国家自然科学基金面上项目，11472260，微流体中纳米颗粒的非线性电动操控机理和实验研究&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td>2015/01-2018/12</td></tr>
+					</table>
+					<p></p>
+					<h4>已完成主持项目：</h4>
+					<table>
+					<tr><td>浙江省自然科学基金青年基金，LQ15A020003、并列双圆柱尾流主动控制及其机理研究&nbsp;&nbsp;</td><td>2015/01-2017/12</td></tr>
+					<tr><td>企业合作项目，2015330004001937、新型系列自吸泵和喷射泵产品开发&nbsp;&nbsp;</td><td>2016/01-2019/12</td></tr>
+					<tr><td>仪器科学与技术重中之重学科人才创新项目，JL150509、纳米颗粒的连续喷射弥散机理及装置研究&nbsp;&nbsp;</td><td>2015/6-2017/6</td></tr>
+					</table>
 				</div >
+				<!--
 				<div class="col-md-6 wthree-about-right">
 					<h3>Skills</h3>
 					<div class="skills-bar">
@@ -158,11 +188,11 @@ $(document).ready(function() {
 						  <section class='wrap'>
 							<div class='wrap_right'>
 							  <div class='bar_group'>
-								<div class='bar_group__bar thin' label='jQuery' show_values='true' tooltip='true' value='343'></div>
-								<div class='bar_group__bar thin' label='AJAX' show_values='true' tooltip='true' value='235'></div>
-								<div class='bar_group__bar thin' label='PHP' show_values='true' tooltip='true' value='675'></div>
-								<div class='bar_group__bar thin' label='SASS' show_values='true' tooltip='true' value='456'></div>
-								<div class='bar_group__bar thin' label='HTML' show_values='true' tooltip='true' value='245'></div>
+								<div class='bar_group__bar thin' label='jQuery' show_values='true' tooltip='true' value='343.3'></div>
+								<div class='bar_group__bar thin' label='AJAX' show_values='true' tooltip='true' value='235.3'></div>
+								<div class='bar_group__bar thin' label='PHP' show_values='true' tooltip='true' value='675.3'></div>
+								<div class='bar_group__bar thin' label='SASS' show_values='true' tooltip='true' value='456.3'></div>
+								<div class='bar_group__bar thin' label='HTML' show_values='true' tooltip='true' value='245.3'></div>
 							  </div>
 							</div>
 							<div class='clear'></div>
@@ -170,6 +200,7 @@ $(document).ready(function() {
 						</section>
 					</div>
 				</div >
+				-->
 				<div class="clearfix"> </div>
 			</div>
 		</div>
@@ -179,23 +210,29 @@ $(document).ready(function() {
 	<div class="jarallax statistics" id="statistics">
 		<div class="container">
 			<div class="w3-agileits-statistics-heading">
-				<h3>My Statistics</h3>
+				<h3>教育经历</h3>
 			</div>
 			<div class="agile-statistics-grids">
 				<div class="col-sm-4 agile-statistics-grid">
-					<h4>1024</h4>
-					<i class="fa fa-desktop" aria-hidden="true"></i>
-					<p>Projects Complete</p>
+					<h4>工学学士</h4>
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<p>中国计量学院</p>
+					<p>计量测试工程学院安全工程</p>
+					<p>2002/09-2006/06</p>
 				</div>
 				<div class="col-sm-4 agile-statistics-grid statistics-grid2">
-					<h4>2746</h4>
+					<h4>工学硕士</h4>
 					<i class="fa fa-user" aria-hidden="true"></i>
-					<p>Clients</p>
+					<p>中国计量学院</p>
+					<p>计量测试工程学院测控计量技术及仪器专业</p>
+					<p>2006/09-2009/03</p>
 				</div>
 				<div class="col-sm-4 agile-statistics-grid">
-					<h4>575</h4>
-					<i class="fa fa-trophy" aria-hidden="true"></i>
-					<p>Awards</p>
+					<h4>博士</h4>
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<p>浙江大学</p>
+					<p>航空航天学院流体力学专业</p>
+					<p>2011/08-2015/03</p>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
@@ -216,47 +253,26 @@ $(document).ready(function() {
 	<div class="experience" id="experience">
 		<div class="container">
 			<div class="w3-agileits-statistics-heading experience-heading">
-				<h3>Work Experience</h3>
+				<h3>获奖情况</h3>
 			</div>
 			<div class="w3-agile-experience-grids">
 				<div class="experience-top-grids">
 					<div class="col-md-6 experience-grid">
 						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-folder-open" aria-hidden="true"></i>
+							<i class="fa fa-trophy" aria-hidden="true"></i>
 						</div>
 						<div class="experience-grid-info">
-							<h5>Ut dapibus nisi turpis</h5>
-							<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus, arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
+							<h5>中国计量大学青年园丁奖</h5>
+							<p>2017</p>
 						</div>
 					</div>
 					<div class="col-md-6 experience-grid experience-grid1">
 						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-bell" aria-hidden="true"></i>
+							<i class="fa fa-trophy" aria-hidden="true"></i>
 						</div>
 						<div class="experience-grid-info">
-							<h5>Ut dapibus nisi turpis</h5>
-							<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus, arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="experience-top-grids">
-					<div class="col-md-6 experience-grid experience-grid2">
-						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-comments" aria-hidden="true"></i>
-						</div>
-						<div class="experience-grid-info">
-							<h5>Ut dapibus nisi turpis</h5>
-							<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus, arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
-						</div>
-					</div>
-					<div class="col-md-6 experience-grid experience-grid3">
-						<div class="experience-grid-icon icon-left hvr-radial-out">
-							<i class="fa fa-asterisk" aria-hidden="true"></i>
-						</div>
-						<div class="experience-grid-info">
-							<h5>Ut dapibus nisi turpis</h5>
-							<p>Curabitur augue urna, venenatis vel enim at, sodales tempus diam. Aliquam ornare, magna a cursus tempus, arcu massa accumsan justo, non facilisis risus ante vel ex.</p>
+							<h5>挑战杯（研究生组）全国三等奖</h5>
+							<p>2017</p>
 						</div>
 					</div>
 					<div class="clearfix"> </div>
@@ -266,59 +282,25 @@ $(document).ready(function() {
 	</div>
 	<!-- //experience -->
 	<!-- feedback -->
-	<div class="jarallax feedback">
+	<div class="jarallax feedback" id="feedback">
 		<div class="container">
 			<div class="w3-agileits-statistics-heading">
-				<h3>Clients Feedback</h3>
+				<h3>学生评价</h3>
 			</div>
 			<div class="agileits-feedback-grids">
 				<div id="owl-demo" class="owl-carousel owl-theme">
 					<div class="item">
 						<div class="feedback-info">
 							<div class="feedback-top">
-								<p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. </p>
-							</div>
-							<div class="feedback-grids">
-								<div class="feedback-img">
-									<img src="images/f1.jpg" alt="" />
-								</div>
-								<div class="feedback-img-info">
-									<h5>Peter Parker</h5>
-									<p>Vestibulum</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="feedback-info">
-							<div class="feedback-top">
-								<p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. </p>
-							</div>
-							<div class="feedback-grids">
-								<div class="feedback-img">
-									<img src="images/f2.jpg" alt="" />
-								</div>
-								<div class="feedback-img-info">
-									<h5>Mary Jane</h5>
-									<p>Vestibulum</p>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>	
-					</div>
-					<div class="item">
-						<div class="feedback-info">
-							<div class="feedback-top">
-								<p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. </p>
+								<p> 涂老师是个负责的好老师</p>
 							</div>
 							<div class="feedback-grids">
 								<div class="feedback-img">
 									<img src="images/f3.jpg" alt="" />
 								</div>
 								<div class="feedback-img-info">
-									<h5>Steven Wilson</h5>
-									<p>Vestibulum</p>
+									<h5>张三</h5>
+									<p>硕士生</p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
@@ -327,15 +309,49 @@ $(document).ready(function() {
 					<div class="item">
 						<div class="feedback-info">
 							<div class="feedback-top">
-								<p> Sed semper leo metus, a lacinia eros semper at. Etiam sodales orci sit amet vehicula pellentesque. </p>
+								<p> 涂老师是个负责的好老师</p>
 							</div>
 							<div class="feedback-grids">
 								<div class="feedback-img">
-									<img src="images/f4.jpg" alt="" />
+									<img src="images/f3.jpg" alt="" />
 								</div>
 								<div class="feedback-img-info">
-									<h5>Peter Parker</h5>
-									<p>Vestibulum</p>
+									<h5>张三</h5>
+									<p>硕士生</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="feedback-info">
+							<div class="feedback-top">
+								<p> 涂老师是个负责的好老师</p>
+							</div>
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/f3.jpg" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>张三</h5>
+									<p>硕士生</p>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>	
+					</div>
+					<div class="item">
+						<div class="feedback-info">
+							<div class="feedback-top">
+								<p> 涂老师是个负责的好老师</p>
+							</div>
+							<div class="feedback-grids">
+								<div class="feedback-img">
+									<img src="images/f3.jpg" alt="" />
+								</div>
+								<div class="feedback-img-info">
+									<h5>张三</h5>
+									<p>硕士生</p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
@@ -359,185 +375,60 @@ $(document).ready(function() {
 	<div class="projects" id="projects">
 		<div class="container">
 			<div class="w3-agileits-statistics-heading experience-heading">
-				<h3>My Projects</h3>
+				<h3>近期成果</h3>
 			</div>
 		</div>
 		<div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
 					<ul id="myTab" class="nav nav-tabs" role="tablist">
-						<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">All</a></li>
-						<li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">Apps</a></li>
-						<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">Widgets</a></li>
-						<li role="presentation"><a href="#painting" role="tab" id="painting-tab" data-toggle="tab" aria-controls="painting">Templates</a></li>
-						<li role="presentation"><a href="#school" role="tab" id="school-tab" data-toggle="tab" aria-controls="school">Other</a></li>
+						<li role="presentation" class="active"><a href="#home-main" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"> 一作论文 </a></li>
+						<li role="presentation"><a href="#learning" role="tab" id="learning-tab" data-toggle="tab" aria-controls="learning">非一作论文</a></li>
+						<li role="presentation"><a href="#playing" role="tab" id="playing-tab" data-toggle="tab" aria-controls="playing">授权发明专利</a></li>
 					</ul>
 					<div id="myTabContent" class="tab-content">
 						<div role="tabpanel" class="tab-pane fade in active" id="home-main" aria-labelledby="home-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p1.jpg">
-										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive" />
-										  </figure>
-										</a>
+							<div class="container">
+								<div class="wthree-about-grids">
+									<div class="col-md-12 wthree-about-left">
+										<p>Tu　Chengxu,　Lin　Jianzhong,　Yin　Zhaoqin,　Bao　Fubing,　Du　Pengfei.　Powder　disperser　for　the　continuous　aerosolizing　of　dry　powdered　nanoparticles,　Advanced　Powder　Technology,　2017,　28(11):　2848-2858.　 </p>
+										<p>Tu　Chengxu,　Yin　Zhaoqin,　Lin　Jianzhong　and　Bao　Fubing,　A　Review　of　Experimental　Techniques　for　Measuring　Micro-　to　Nano-Particle-Laden　Gas　Flows,　Appl.　Sci.　2017,　7(2):　120. </p>
+										<p>Tu　Chengxu,　Qian　Lijuan,　Bao　Fubing,　Yan　Weiwei,　Local　effective　viscosity　of　gas　in　nano-scale　channels,　European　Journal　of　Mechanics　-　B/Fluids,　2017,　64:　55-59 </p>
+										<p>Tu　Chengxu,　Bao　Fubing,　Huang　Long.　Properties　of　the　flow　around　two　rotating　circular　cylinders　in　side-by-side　arrangement　with　different　rotation　Types,　Thermal　Science,　2014,　18(5):1487-1492.(SCI) </p>
+										<p>Tu　Chengxu,　Bao　Fubing,　Huang　Long.　Properties　of　the　flow　around　two　rotating　circular　cylinders　in　side-by-side　arrangement　with　different　rotation　Types,　Thermal　Science,　2014,　18(5):1487-1492.(SCI) </p>
+										<p>Tu　Chengxu,　Zhang　Jian,　Nanoparticle-laden　gas　flow　around　a　circular　cylinder　at　high　Reynolds　number.　International　Journal　of　Numerical　Methods　for　Heat　and　Fluid　Flow,　2014,　24(8)　:1782-1794.(SCI) </p>
+										<p>Tu　Chengxu,　Zhang　Jian.　Characteristic　distribution　of　submicron　and　nano-particles　laden　flow　around　circular　cylinder,　Thermal　Science,　2012,　16(5):　1386-1390.　(SCI) </p>
+										<p>Tu　Chengxu,　Liu　Song.　Nanoparticle　coagulation　and　dispersion　in　a　turbulent　planar　jet　with　constraints,　Thermal　Science,　2012,　16(5):1497-1501.　(SCI) </p>
+										<div class="clearfix"> </div>
 									</div>
 								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p2.jpg">
-										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive" />
-										  </figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p3.jpg">
-										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p4.jpg">
-										  <figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive" />
-										</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p5.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p6.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p7.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p8.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive" />
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
 							</div>
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="learning" aria-labelledby="learning-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p6.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p6.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
+							<div class="container">
+								<div class="wthree-about-grids">
+									<div class="col-md-12 wthree-about-left">
+										<p>Shuchao　Yang,　Weiwei　Yan,　Jie　Wu,　Chengxu　Tu,　Dan　Luo.　Numerical　investigation　of　vortex　suppression　regions　for　three　staggered　circular　cylinders,　European　Journal　of　Mechanics　-　B/Fluids,　2016,55(1):207-214.(SCI) </p>
+										<p>Liu　Zhihua,　Xiong　Ying,　Tu　Chengxu.　Method　to　Control　Unsteady　Force　of　Submarine　Propeller　Based　on　the　Control　of　Horseshoe　Vortex,　Journal　of　ship　research,　2012,　56(1):12-22.　(SCI) </p>
+										<p>Liu　Zhihua,　Xiong　Ying,　Tu　Chengxu.　Numerical　simulation　and　control　of　horseshoe　vortex　around　an　appendage–body　junction,　Journal　of　Fluids　and　Structures,　2011,　27(1):23-42.　(SCI) </p>
+										<div class="clearfix"> </div>
 									</div>
 								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p9.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p9.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
 							</div>
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="playing" aria-labelledby="playing-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p1.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p1.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
+							<div class="container">
+								<div class="wthree-about-grids">
+									<div class="col-md-12 wthree-about-left">
+										<p>低噪音自吸复合泵，2017.11，中国，ZL　201610813048.3 </p>
+										<p>平行双圆柱体相对空间位置及其转角的精密定位装置，2017.11，中国，ZL　201610106084.6 </p>
+										<p>一种双吸离心泵叶轮和蜗室导流装置，2017.11，ZL　201510132311.8 </p>
+										<p>一种并列双圆柱尾流的控制方法，2016.5，中国，ZL　201410621524.2 </p>
+										<p>一种微米及纳米干粉颗粒的连续喷射弥散方法，2016.8，中国，ZL　201510079020.7 </p>
+										<p>一种离心泵内部流场数值模拟结果的校准方法，2015.3，中国，ZL　201510104879.9 </p>
+										<p>一种圆柱体波流载荷的消减方法（ZL　201010269522.3）	2012.11 </p>
+										<p>一种桥跨结构涡激振动的消减方法（ZL　201010228984.0）	2012.05 </p>
+										<div class="clearfix"> </div>
 									</div>
 								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p5.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p5.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p7.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p7.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p3.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p3.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="painting" aria-labelledby="painting-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p2.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p2.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p4.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p4.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p10.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p10.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-						<div role="tabpanel" class="tab-pane fade" id="school" aria-labelledby="school-tab">
-							<div class="w3_tab_img">
-								<div class="col-md-3 w3_tab_img_left">
-									<div class="demo">
-										<a class="cm-overlay" href="images/p8.jpg">
-											<figure class="imghvr-shutter-in-out-diag-2"><img src="images/p8.jpg" alt=" " class="img-responsive">
-											</figure>
-										</a>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
 							</div>
 						</div>
 					</div>
@@ -555,7 +446,7 @@ $(document).ready(function() {
 	<!-- //projects -->
 	<!-- map -->
 	<div class="map-grid">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100949.24429313939!2d-122.44206553967531!3d37.75102885910819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472190196783" class="map" style="border:0" allowfullscreen=""></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13776.954990896322!2d120.36326889489327!3d30.315726177153454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x344c9795aa551bb3%3A0x179ee0e8ad3a7d13!2z5Lit5Zu96K6h6YeP5a2m6Zmi!5e0!3m2!1szh-CN!2sus!4v1523446346082" class="map" style="border:0" allowfullscreen=""></iframe>
 	</div>
 	<!-- //map -->
 	<!-- contact -->
@@ -603,7 +494,7 @@ $(document).ready(function() {
 	<!-- copyright -->
 	<div class="agileits-w3layouts-footer">
 		<div class="container">
-			<p>© 2016 Creative Resume. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			<p>© 2018 Iridescent All rights reserved | Design by <a href="http://www.iridesc.cn/homepage">ZyxLyn</a> | <a href="http://yjsb.cjlu.edu.cn/yjsy/">中国计量大学研究生院</a></p>
 		</div>
 	</div>
 	<!-- //copyright -->
